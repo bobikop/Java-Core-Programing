@@ -4,7 +4,8 @@ public class NumberOfDays {
     public static void main(String[] args) {
 
         int month = 15;
-        String result = "";
+        String
+                result = "";
 
         switch (month){
             case 2:
