@@ -1,4 +1,4 @@
-package mentorSessions;
+package MentorSessions;
 
 public class AnimalFeast {
 
