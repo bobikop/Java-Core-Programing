@@ -38,20 +38,9 @@ public class Calculator {
                 answer = input.next().toLowerCase();
             }
 
-
         }
 
-
-
-
-
     }
-
-
-
-
-
-
 
 
 }

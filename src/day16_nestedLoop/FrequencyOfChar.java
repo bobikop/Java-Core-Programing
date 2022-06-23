@@ -19,6 +19,7 @@ public class FrequencyOfChar {
             }
             if (!result.contains(ch + "")) {
                 result += ch + "" + count; // char and int will give another number without ""
+
             }
         }
         System.out.println(result);
