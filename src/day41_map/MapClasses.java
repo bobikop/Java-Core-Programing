@@ -4,7 +4,9 @@ import java.util.*;
 
 public class MapClasses {
     public static void main(String[] args) {
-        Map<String, Integer> hashMap = new HashMap<>(); // random order, accept null key & null values
+        Map<String, Integer> hashMap = new HashMap<>();
+        // random order, accept null key & null values
+
         hashMap.put("Daniel", 95000);
         hashMap.put("Emily", 100000);
         hashMap.put("Bella", 85000);
