@@ -1,4 +1,4 @@
-package day12_customMethods;
+package day10_string;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class FormatFullName {
 
         System.out.println("Enter your first name:");
         String first = input.nextLine().trim().replace(" ", "");
-        // trim(0 & replace() methods will make sure that the white spaces & additional spaces between the characters will be removed
+        // trim(0 & replace() methods will make sure that the white spaces & additionals spaces between the characters will be removed
 
         System.out.println("Enter your last name:");
         String last = input.nextLine().trim().replace(" ", "");

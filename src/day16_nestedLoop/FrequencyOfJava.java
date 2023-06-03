@@ -4,17 +4,19 @@ import java.util.Scanner;
 
 public class FrequencyOfJava {
     public static void main(String[] args) {
+        String sentence = "java JAVA jAvA JAva";
+        String word = "Java";
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter your sentence");
-        String javaSentence = input.nextLine();
+        sentence = sentence.toLowerCase();
+        word = word.toLowerCase();
 
         int count = 0;
-        for (int i = 0; i < javaSentence.length() - 4; i++) {
-            if (javaSentence.equalsIgnoreCase("java")) {
-                count++;
-            }
+
+        while(sentence.contains(word)){
+            count++;
+            sentence = sentence.replaceFirst(word, ""); //
         }
+
 
         System.out.println(count);
     }

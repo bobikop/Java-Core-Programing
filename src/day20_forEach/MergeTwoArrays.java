@@ -28,7 +28,7 @@ public class MergeTwoArrays {
         int[] a1 = {10, 20, 30, 40};
         int[] a2 = {50, 60};
 
-       int[ ]a3 = ArraysUtility.merge(a1,a2);
+       int[ ] a3 = ArraysUtility.merge(a1,a2);
 
         System.out.println(Arrays.toString(a3));
 

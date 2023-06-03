@@ -11,7 +11,7 @@ public class LongestString {
         String first = input.nextLine();
 
 
-        System.out.println("Enter the first string");
+        System.out.println("Enter the second string");
         String second = input.nextLine(); //after this line we don't need scanner anymore to as for any input
 
         input.close();

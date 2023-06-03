@@ -6,9 +6,9 @@ import java.util.Arrays;
 public class ArrayArrayListConversion {
     public static void main(String[] args) {
 
-        String[] arr = {"A", "B", "C", "D"}; //Array
+        String[] arr = {"A", "B", "C", "D"};
 
-        ArrayList<String> list = new ArrayList<>( Arrays.asList(arr) ); // conversion Array to ArrayList
+        ArrayList<String> list = new ArrayList<>( Arrays.asList(arr) );
 
         System.out.println(list);
 

@@ -29,11 +29,6 @@ public class Student {
 
 
 
-
-
-
-
-
     public int getAge(){ // READ ONLY getter is instance method,we can call it through the object name
 
         if (age == 0){

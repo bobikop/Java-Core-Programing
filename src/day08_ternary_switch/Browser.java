@@ -2,7 +2,7 @@ package day08_ternary_switch;
 
 public class Browser {
     public static void main(String[] args) {
-        String browserName = "Google";
+        String browserName = "Chrome";
         String result = "Invalid Browser";
 
         switch (browserName) {
@@ -26,11 +26,6 @@ public class Browser {
 
     }
 }
-
-
-
-
-
 
 /*
 9. write a program that can display the selected browser
