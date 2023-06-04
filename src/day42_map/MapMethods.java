@@ -9,7 +9,7 @@ public class MapMethods {
 
         //adding pairs form one map to another from map to employees
         Map<String, String> map = new TreeMap<>();
-        map.put("C02", "Josh");
+        map.put("C02", "Josh"); // put method adding only one pair
         map.put("B03", "Nora");
         map.put("A02", "Khashayar");
         map.put("D02", "Abidullah");
@@ -18,7 +18,7 @@ public class MapMethods {
 
         Map<String, String> employees = new TreeMap<>();
 
-        employees.putAll(map);
+        employees.putAll(map);// adding one map to another
 
         System.out.println(employees);
 
