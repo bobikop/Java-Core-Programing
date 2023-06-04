@@ -25,7 +25,7 @@ public class MapPractice1 {
         System.out.println("-----------------------------------------------------------------------------------------");
         // how many female & male employees in the map?
 
-        int countMaleEmployee = 0;
+        int countMaleEmployee = 0; // declare variable which will count employee
         int countFemaleEmployee = 0;
 
        /* for (String name : employeeMap.keySet()){

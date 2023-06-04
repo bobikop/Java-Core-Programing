@@ -47,13 +47,7 @@ public class IteratingMaps {
             eachEntry.setValue(eachValue + 10000);
             //  System.out.println(eachKey +" : "+eachValue);
         }
-
-
         System.out.println(map);
-
-
-
-
 
     }
 }
