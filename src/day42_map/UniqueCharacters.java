@@ -13,9 +13,11 @@ public class UniqueCharacters {
         String str = "aabcccdeeeef";
         Map<Character,Integer> map = new LinkedHashMap<>();
 
+        // charArray can not be converted to Collections so in that case we can't use frequency method and we will need another for loop instead
         for (String each : str.split("")){
             int frequency = Collections.frequency(Arrays.asList(str.split("")), each);
 
+            // before adding character to map we will check here if is frequency == to 1;
             if (frequency == 1)
                 map.put(each.charAt(0), frequency);
 
